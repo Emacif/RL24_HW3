@@ -12,7 +12,7 @@ This guide provides updated instructions for working with the robotics package, 
 
 Ensure that the repository has been cloned and the workspace is built:
 ```bash
-https://github.com/vitlisi/RL24_HW3.git
+https://github.com/Emacif/RL24_HW3.git
 colcon build
 source install/setup.bash
 ```
