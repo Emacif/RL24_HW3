@@ -1,6 +1,4 @@
-# RL24_HW3
-HOMEWORK_3
-# RL24_HW_3 Updated Instructions
+# RL24_HW_3 Instructions HOMEWORK_3
 Ferdinando Dionisio, Vittorio Lisi, Giovanni Gabriele Imbimbo, Emanuele Cifelli
 ## Overview
 
@@ -24,8 +22,6 @@ When cloning the repository with `git clone`, the command downloads a single dir
 mv ~/ros2_ws/src/RL_24_Homewrok_3_Robotics/* ~/ros2_ws/src/
 rm -rf ~/ros2_ws/src/RL_24_Homewrok_3_Robotics
 ```
-
----
 
 ---
 
