@@ -14,7 +14,7 @@ The **NewRelease_Homework_3** branch introduces an improved version of the code,
 ### 1. Clone the Repository
 Download the repository from GitHub:
 ```bash
-git clone -b REV_2 https://github.com/Emacif/RL24_HW3.git
+git clone -b REV_2 https://github.com/Emacif/RL24_HW3.git .
 ```
 
 ### 2. Configure and Build the Workspace
@@ -22,14 +22,6 @@ To configure and build the workspace:
 ```bash
 colcon build
 source install/setup.bash
-```
-
-**Note**: The repository download includes extra files. Manually remove unnecessary files and move the required ones into the `src` folder.
-Additionally, ensure that the environment variable GZ_SIM_RESOURCE_PATH includes the path to the Gazebo models required by the simulation. If this is not configured, you may encounter errors like Unable to find uri[model://...]. To resolve this, execute the following commands:
-```bash
-export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/home/user/ros2_ws/install/iiwa_description/share/iiwa_description/gazebo/models
-echo 'export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/home/user/ros2_ws/install/iiwa_description/share/iiwa_description/gazebo/models' >> ~/.bashrc
-source ~/.bashrc
 ```
 
 ---
